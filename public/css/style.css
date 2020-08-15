@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    
+    height: 100vh;
+    text-align: center;
+    background-color: grey;
+}
+h1{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 0 20px 0;
+}
+form.item{
+    display: flex;
+}
+.item{
+    list-style: none;
+    background: black;
+    color: white;
+    margin: 5px 0 5px 0;
+    width: 70%;
+    border-radius: 5px;
+    padding: 5px;
+}
+ul{
+    margin: 30px 0 30px 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.list-container{
+
+    padding: 10px 0 30px 0;
+    background: white;
+    width: 100%;
+    margin: 0;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid black;
+    border-radius: 0;
+    color: black;
+    font-size:16px;
+}
+input:focus{
+    outline: none;
+    border-bottom: 2px solid grey;
+    
+}
+
+button{
+
+    padding: 5px 12px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    font-size: 26px;
+    cursor: pointer;
+    border: 0;
+}
+
+button:focus{
+    outline: none;
+}
+.container{
+    margin: auto;
+    width: 320px;
+}
+
+input:checked + li{
+    text-decoration: line-through;
+}
+.checkbox{
+    margin-right: 25%;
+}
